@@ -1,4 +1,4 @@
-import { vitePreprocess } from '@sveltejs/kit/vite'; 
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'; 
 import adapterStatic from '@sveltejs/adapter-static';
 import adapterNode from '@sveltejs/adapter-node';
 import adapterMulti from '@macfja/svelte-multi-adapter';
